@@ -5,6 +5,9 @@ iris = read.csv("iris.csv", header=T, sep=',', stringsAsFactors = F)
 #1.
 #print first 10 numbers in sepal length column
 head(iris$Sepal.Length, n=10)
+### Brittni: We wanted you to recreate head without using head. I took off 0.5 points:
+## nlines=10
+## iris[1:nlines]
 
 #2.
 #last 2 rows of the last two columns of iris.csv
